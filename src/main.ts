@@ -5,7 +5,7 @@ import 'zone.js/dist/zone';
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { webpackClass } from './app/app.component';
 import { disableDeprecatedForms, provideForms } from '@angular/forms';
-
+//New Comment added for new commit
 bootstrap(webpackClass, [
   disableDeprecatedForms(),
   provideForms()
